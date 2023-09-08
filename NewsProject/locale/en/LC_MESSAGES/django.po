@@ -1,0 +1,402 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-06 00:35+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\news\apps.py:7
+msgctxt "Новости"
+msgid "Новости"
+msgstr "News"
+
+#: .\news\filters.py:10
+msgid "Название"
+msgstr "Title"
+
+#: .\news\filters.py:11
+msgid "Содержание"
+msgstr "Content"
+
+#: .\news\filters.py:12
+msgid "Тип"
+msgstr "Type"
+
+#: .\news\filters.py:12 .\news\filters.py:32
+msgid "Все"
+msgstr "All"
+
+#: .\news\filters.py:15
+msgid "С"
+msgstr "From"
+
+#: .\news\filters.py:22
+msgid "По"
+msgstr "To"
+
+#: .\news\filters.py:31 .\news\forms.py:23
+msgid "Категория"
+msgstr "Category"
+
+#: .\news\forms.py:22 .\templates\post.html:24
+msgid "Автор"
+msgstr "Author"
+
+#: .\news\forms.py:31
+msgid "Название и контент не должны быть одинаковыми"
+msgstr "Title and Content must be different"
+
+#: .\news\models.py:22
+msgctxt "Автор"
+msgid "Автор"
+msgstr "Author"
+
+#: .\news\models.py:23
+msgctxt "Авторы"
+msgid "Авторы"
+msgstr "Authors"
+
+#: .\news\models.py:33
+msgctxt "Политика"
+msgid "Политика"
+msgstr "Politics"
+
+#: .\news\models.py:34
+msgctxt "Спорт"
+msgid "Спорт"
+msgstr "Sport"
+
+#: .\news\models.py:35
+msgctxt "Наука"
+msgid "Наука"
+msgstr "Science"
+
+#: .\news\models.py:36
+msgctxt "Образование"
+msgid "Образование"
+msgstr "Education"
+
+#: .\news\models.py:37
+msgctxt "Религия"
+msgid "Религия"
+msgstr "Religion"
+
+#: .\news\models.py:47
+msgctxt "Категория"
+msgid "Категория"
+msgstr "Category"
+
+#: .\news\models.py:48
+msgctxt "Категории"
+msgid "Категории"
+msgstr "Categories"
+
+#: .\news\models.py:55
+msgctxt "Новость"
+msgid "Новость"
+msgstr "News"
+
+#: .\news\models.py:56
+msgctxt "Статья"
+msgid "Статья"
+msgstr "Article"
+
+#: .\news\models.py:83
+msgctxt "Пост"
+msgid "Пост"
+msgstr "Post"
+
+#: .\news\models.py:84
+msgctxt "Посты"
+msgid "Посты"
+msgstr "Posts"
+
+#: .\news\signals.py:25
+msgid "Добро пожаловать в наш МИР"
+msgstr "Welcome to our WORLD"
+
+#: .\news\tasks.py:32
+msgid "Посты за неделю"
+msgstr "weekly posts"
+
+#: .\templates\403.html:8 .\templates\403.html:12
+msgid "Доступ Запрещен"
+msgstr "Access denied"
+
+#: .\templates\403.html:13
+msgid "Обратитесь к администратору для получения доступа"
+msgstr "contact to administrator for access"
+
+#: .\templates\allauth\account\base.html:27
+#: .\templates\flatpages\default.html:27
+msgid "Главная"
+msgstr "Main"
+
+#: .\templates\allauth\account\base.html:30
+#: .\templates\flatpages\default.html:30 .\templates\posts.html:7
+msgid "Посты"
+msgstr "Posts"
+
+#: .\templates\allauth\account\base.html:36
+#: .\templates\flatpages\default.html:36
+msgid "Привет"
+msgstr "Hi"
+
+#: .\templates\allauth\account\base.html:37
+#: .\templates\flatpages\default.html:38
+msgid "| Выйти |"
+msgstr "| Sign Out |"
+
+#: .\templates\allauth\account\base.html:39
+#: .\templates\flatpages\default.html:40
+msgid "| Войти |"
+msgstr "| Sign In |"
+
+#: .\templates\allauth\account\email\email_confirmation_signup_message.html:12
+msgid "Спасибо за регистрацию"
+msgstr "Thanks for registration"
+
+#: .\templates\allauth\account\email\email_confirmation_signup_message.html:13
+#, python-format
+msgid " Пройдите по <a href=\"%(activate_url)s\">ссылке</a> для активации "
+msgstr "Click <a href=\"%(activate_url)s\">link</a> for activation"
+
+#: .\templates\allauth\account\email\email_confirmation_subject.txt:3
+msgid "Skillfactory sends it's regards "
+msgstr ""
+
+#: .\templates\allauth\account\email_confirm.html:6
+#: .\templates\allauth\account\email_confirm.html:10
+msgid "Confirm E-mail Address"
+msgstr ""
+
+#: .\templates\allauth\account\email_confirm.html:16
+#, python-format
+msgid ""
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"address for user %(user_display)s."
+msgstr ""
+
+#: .\templates\allauth\account\email_confirm.html:20
+msgid "Confirm"
+msgstr ""
+
+#: .\templates\allauth\account\email_confirm.html:27
+#, python-format
+msgid ""
+"This e-mail confirmation link expired or is invalid. Please <a href="
+"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+msgstr ""
+
+#: .\templates\allauth\account\login.html:6
+#: .\templates\allauth\account\login.html:53
+msgid "Sign In"
+msgstr ""
+
+#: .\templates\allauth\account\login.html:13
+#, python-format
+msgid ""
+" Пожалуйста, войдите с одним из ваших внешних аккаунтов. <br> Или <a href="
+"\"%(signup_url)s\">зарегистрируйтесь</a>  и авторизуйтесь на сайте "
+"%(site.name)s: "
+msgstr ""
+"Please sign in with one of your existing third party accounts. Or, <a href="
+"\"%(signup_url)s\">sign up</a> for a %(site.name)s account and sign in below:"
+
+#: .\templates\allauth\account\login.html:35
+msgid "or"
+msgstr ""
+
+#: .\templates\allauth\account\login.html:42
+#, python-format
+msgid ""
+"If you have not created an account yet, then please\n"
+"<a href=\"%(signup_url)s\">sign up</a> first."
+msgstr ""
+
+#: .\templates\allauth\account\login.html:52
+msgid "Forgot Password?"
+msgstr ""
+
+#: .\templates\allauth\account\logout.html:5
+#: .\templates\allauth\account\logout.html:8
+#: .\templates\allauth\account\logout.html:17
+msgid "Sign Out"
+msgstr ""
+
+#: .\templates\allauth\account\logout.html:10
+msgid "Are you sure you want to sign out?"
+msgstr ""
+
+#: .\templates\allauth\account\signup.html:5
+msgid "Signup"
+msgstr ""
+
+#: .\templates\allauth\account\signup.html:8
+#: .\templates\allauth\account\signup.html:21
+msgid "Sign Up"
+msgstr ""
+
+#: .\templates\allauth\account\signup.html:10
+#, python-format
+msgid ""
+"Already have an account? Then please <a href=\"%(login_url)s\">sign in</a>."
+msgstr ""
+
+#: .\templates\allauth\account\verification_sent.html:5
+#: .\templates\allauth\account\verification_sent.html:8
+msgid "Verify Your E-mail Address"
+msgstr ""
+
+#: .\templates\allauth\account\verification_sent.html:10
+msgid ""
+"We have sent an e-mail to you for verification. Follow the link provided to "
+"finalize the signup process. If you do not see the verification e-mail in "
+"your main inbox, check your spam folder. Please contact us if you do not "
+"receive the verification e-mail within a few minutes."
+msgstr ""
+
+#: .\templates\greeting_user.html:11
+msgid "Поздравляем Вас с успешной регистрацией !!! "
+msgstr "Congratulations on your successful registration !!!"
+
+#: .\templates\greeting_user.html:12
+#, python-format
+msgid " Переход на наш <a href=\"%(site_url)s\"> САЙТ </a> "
+msgstr "go to our <a href=\"%(site_url)s\"> site </a>"
+
+#: .\templates\post.html:6
+msgid "Пост"
+msgstr "Post"
+
+#: .\templates\post.html:23
+msgid "Создан"
+msgstr "created"
+
+#: .\templates\post.html:29
+msgid "Отписаться"
+msgstr "Unsubscribe"
+
+#: .\templates\post.html:31
+msgid "Подписаться"
+msgstr "Subscribe"
+
+#: .\templates\post.html:39 .\templates\post.html:41
+msgid "Редактировать"
+msgstr "Edit"
+
+#: .\templates\post.html:48
+msgid "Назад"
+msgstr "Back"
+
+#: .\templates\postdelete.html:4
+msgid "Удалить Пост"
+msgstr "Delete post"
+
+#: .\templates\postdelete.html:10 .\templates\postdelete.html:11
+#: .\templates\postedit.html:37 .\templates\postedit.html:39
+msgid "Удалить"
+msgstr "Delete"
+
+#: .\templates\postedit.html:8
+msgid "Статья"
+msgstr "Article"
+
+#: .\templates\postedit.html:10
+msgid "Новость"
+msgstr "News"
+
+#: .\templates\posts.html:19
+msgid "За сегодня Вы создали 3 поста"
+msgstr "Today you created 3 posts"
+
+#: .\templates\posts.html:21
+msgid "Создать Новость"
+msgstr "Cretate a news"
+
+#: .\templates\posts.html:22
+msgid "Создать Статью"
+msgstr "create an article"
+
+#: .\templates\posts.html:30
+msgid "Поиск"
+msgstr "Search"
+
+#: .\templates\posts.html:36
+msgid "найти"
+msgstr "Find"
+
+#: .\templates\posts.html:44
+msgid "ВСЕ ПОСТЫ"
+msgstr "ALL POSTS"
+
+#: .\templates\posts.html:49
+msgid "Заголовок"
+msgstr "Title"
+
+#: .\templates\posts.html:50
+msgid "Дата публикации"
+msgstr "Published date"
+
+#: .\templates\posts.html:51
+msgid "Тип поста"
+msgstr "Type of post"
+
+#: .\templates\posts.html:52
+msgid "Категории"
+msgstr "Categories"
+
+#: .\templates\posts.html:53
+msgid "Контент"
+msgstr "Content"
+
+#: .\templates\posts.html:68
+msgid "Читать"
+msgstr "Read"
+
+#: .\templates\posts.html:78 .\templates\posts.html:80
+msgid "Начало"
+msgstr "Begin"
+
+#: .\templates\posts.html:83 .\templates\posts.html:85
+msgid "Пред."
+msgstr "Prev."
+
+#: .\templates\posts.html:108 .\templates\posts.html:110
+msgid "След."
+msgstr "Next"
+
+#: .\templates\posts.html:113 .\templates\posts.html:115
+msgid "Конец"
+msgstr "End"
+
+#: .\templates\posts.html:122
+msgid "Нет постов"
+msgstr "No posts"
+
+#: .\templates\subscribers_email_notify.html:11
+#, python-format
+msgid ""
+" Здравствуйте, %(username)s. Новый <a href=\"%(post_link)s\">пост</a> в "
+"Вашем любимом разделе! "
+msgstr ""
+"Hi, %(username)s. There is new <a href=\"%(post_link)s\">post</a> in your "
+"favour caetgory"
+
+#: .\templates\subscribers_email_notify_weekly.html:11
+#, python-format
+msgid " Здравствуйте, %(username)s. Все посты за неделю по Вашей подписке "
+msgstr "Hi, %(username)s. All weekly posts of your subscribed categories"
