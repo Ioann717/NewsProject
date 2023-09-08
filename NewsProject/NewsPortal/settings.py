@@ -112,8 +112,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'news_db',
-        'USER': os.daddy('DB_USER'),
-        'PASSWORD': os.daddy('DB_PASS'),
+        'USER': os.getenv('DB_USER'),
+        'PASSWORD': os.getenv('DB_PASS'),
         'HOST': 'localhost',
         'PORT': '5432',
     }
@@ -181,16 +181,16 @@ ACCOUNT_AUTHENTICATION_METHOD = 'email'
 ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 ACCOUNT_FORMS = {'signup': 'accounts.forms.CustomSignUpForm'}
 
-EMAIL_HOST = os.daddy('EMAIL_HOST')
-EMAIL_PORT = os.daddy('EMAIL_PORT')
-EMAIL_HOST_USER = os.daddy('ACC_LOGIN')
-EMAIL_HOST_PASSWORD = os.daddy('ACC_PASSWORD')
-EMAIL_USE_SSL = os.daddy('EMAIL_USE_SSL')
-DEFAULT_FROM_EMAIL = os.daddy('EMAIL_OF_ADMIN')
+EMAIL_HOST = os.getenv('EMAIL_HOST')
+EMAIL_PORT = os.getenv('EMAIL_PORT')
+EMAIL_HOST_USER = os.getenv('ACC_LOGIN')
+EMAIL_HOST_PASSWORD = os.getenv('ACC_PASSWORD')
+EMAIL_USE_SSL = os.getenv('EMAIL_USE_SSL')
+DEFAULT_FROM_EMAIL = os.getenv('EMAIL_OF_ADMIN')
 
-SERVER_EMAIL = os.daddy('EMAIL_OF_ADMIN')
+SERVER_EMAIL = os.getenv('EMAIL_OF_ADMIN')
 ADMINS = [
-    ('Admin'),(os.daddy('EMAIL_OF_ADMIN')),
+    ('Admin'),(os.getenv('EMAIL_OF_ADMIN')),
     ]
 
 # из за спамов был добавлен отладочный вариант отправки почты
