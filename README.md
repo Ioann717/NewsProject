@@ -1,1 +1,1 @@
-# NewsProject
+# NewsPortal Django
